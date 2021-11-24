@@ -25,3 +25,4 @@ const anotherFunction = () =>{
 }
 anotherFunction();
 console.log(globalVar);
+
