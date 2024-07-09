@@ -17,3 +17,13 @@ const anotherFunction = () =>{
 }
 
 anotherFunction();
+
+function greeting(){
+    let useName ='DONIEL';
+    console.log(useName);
+    if (useName ==='DONIEL') {
+        console.log(`Hello ${useName}!`);
+    }
+}
+greeting();
+console.log(useName);
