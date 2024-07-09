@@ -4,12 +4,13 @@ const fruits = () =>{
         let fruits2 = 'apple';
         const fruits3 = 'kiwi';
 
-        console.log(fruit1);
-        console.log(fruit2);
+        console.log(fruits1);
+        console.log(fruits3);
     }
-    console.log(fruit3);
+    console.log(fruits1);
 }
 
+fruits();
 var x = 1;
 {
     var x = 2;

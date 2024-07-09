@@ -1,49 +1,49 @@
-// const moneyBox = (coins) =>{
-//     var saveCoins = 0;
-//     saveCoins += coins;
-//     console.log(`moneyBox: ${saveCoins}`);
-// }
+const moneyBox = (coins) =>{
+    var saveCoins = 0;
+    saveCoins += coins;
+    console.log(`moneyBox: ${saveCoins}`);
+}
 
-// moneyBox(5);
-// moneyBox(10);
+moneyBox(5);
+moneyBox(10);
 
 
-// const moneyBox = () =>{
-//     var saveCoins = 0;
-//     const countCoins = (coins) =>{
-//         saveCoins += coins;
-//         console.log(`moneyBox: ${saveCoins}`);
-//     }
-//     return countCoins;
-// }
+const moneyBox = () =>{
+    var saveCoins = 0;
+    const countCoins = (coins) =>{
+        saveCoins += coins;
+        console.log(`moneyBox: ${saveCoins}`);
+    }
+    return countCoins;
+}
 
-// let mymoneyBox = moneyBox();
+let mymoneyBox = moneyBox();
 
-// mymoneyBox(4);
-// mymoneyBox(5);
-// mymoneyBox(6);
+mymoneyBox(4);
+mymoneyBox(5);
+mymoneyBox(6);
 
-// function greeting(){
-//     let username = 'Doniel';
+function greeting(){
+    let username = 'Doniel';
 
-//     function displayUserName(){
-//         return `Hello ${username}`;
-//     }
+    function displayUserName(){
+        return `Hello ${username}`;
+    }
 
-//     return displayUserName;
-// }
-// const g = greeting();
-// console.log(g);
-// console.log(g());
+    return displayUserName;
+}
+const g = greeting();
+console.log(g);
+console.log(g());
 
-// function moneyBox(coins){
-//     let saveCoins = 0;
-//     saveCoins += coins;
-//     console.log(`MoneyBox: $${saveCoins}`);
-// }
+function moneyBox(coins){
+    let saveCoins = 0;
+    saveCoins += coins;
+    console.log(`MoneyBox: $${saveCoins}`);
+}
 
-// moneyBox(5);
-// moneyBox(5);
+moneyBox(5);
+moneyBox(5);
 
 function moneyBox(){
     let saveCoins = 0;
